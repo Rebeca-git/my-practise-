@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int i, j;
+    for(i = 0; i < 4; i++) {     // Rows
+        for(j = 0; j < 4; j++) { // Columns
+            printf("* ");
+        }
+        printf("\n");            // Move to next line after each row
+    }
+    return 0;
+}
